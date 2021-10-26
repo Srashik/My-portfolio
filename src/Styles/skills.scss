@@ -1,9 +1,8 @@
-// .SkillsSection{
+.SkillsSection{
    
-// }
+}
 
-.skills-container{
-    margin: 4rem;
+.skillsContainer{
     .skill-title{
         font-size: 1.4rem;
         font-weight: 400;
@@ -12,8 +11,8 @@
     .skill-bar{
         display: flex;
         align-items: center;
-        // .skill-text{
-        // }
+        .skill-text{
+        }
         .skill-progress{
             width: 100%;
            .progress{
