@@ -1,9 +1,15 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom';
 
-function Categories() {
+function Categories({filter, categories}) {
     return (
         <div>
-            
+           {
+               categories.map((cat, i) => {
+                    return <button type="button" className="btn-port" onClick={()=> filter(cat)} key={i}>{cat}</button>
+               })
+
+           }
         </div>
     )
 }

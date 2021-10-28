@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 function Menuitem({menuitem}) {
     return (
@@ -10,12 +11,14 @@ function Menuitem({menuitem}) {
                             <img src={item.image} alt=""/>
                             <ul class="hover-items">
                                 <li>
-                                    <a href={item.icon1}></a>
-                                    {/* <a href={item.icon2}></a> */}
+                                    <a href={item.link1} target="_blank">{item.icon1}</a>
+                                    <a href={item.link2} target="_blank">{item.icon2}</a>
                                 </li>
                             </ul>
                         </div>
-                        <h5>{item.title}</h5>
+                        <h5>
+                           {item.title}
+                        </h5>
                         <p>{item.description}</p>
                     </div>
                 })

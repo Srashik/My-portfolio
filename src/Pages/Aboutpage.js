@@ -20,7 +20,7 @@ function Aboutpage() {
                 <Skillsection skill={`HTML`} progress={`40%`} width={'40%'}/>
                 <Skillsection skill={`CSS`} progress={`40%`} width={'40%'}/>
                 <Skillsection skill={`UI/UX Design`} progress={`80%`} width={'80%'}/>
-                <Skillsection skill={`Xcode`} progress={`90%`} width={'90%'}/>
+                <Skillsection skill={`Xcode`} progress={`70%`} width={'70%'}/>
                 <Skillsection skill={`Swift`} progress={`80%`} width={'80%'}/>
                 <Skillsection skill={`Thunkable`} progress={`100%`} width={'100%'}/>
                 <Skillsection skill={`Google Suite`} progress={`100%`} width={'100%'}/>

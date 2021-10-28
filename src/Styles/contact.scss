@@ -5,11 +5,12 @@
     }
     .contact{
         display: flex;
+        width: 110%;
         align-items: center;
         background-color:#191D2B ;
         padding: 3rem 0;
         .right-items{
-            margin-left: 2rem;
+            margin: 2rem;
         }
         img{
             padding: 1rem;
@@ -21,6 +22,8 @@
             h6{
                 font-size: 1.4rem;
                 font-weight: 500;
+                align-items: center;
+                justify-content: center;
             }
         }
     }
@@ -28,20 +31,13 @@
 
 .ContactPage{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2 1fr);
+    row-gap: 5rem;
+    column-gap: 2rem;
     margin-bottom: 6rem;
-    @media screen and (max-width: 1270px){
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .contact-sect{
-        width: 100%;
-    }
-}
-
-.contact-sect{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    margin: 1rem;
+    width: 100%;
+    
 }
 
 .title{
