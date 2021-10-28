@@ -15,9 +15,9 @@ function Homepage() {
                     lorem Ipsum
                 </p>
                 <div className="icons">
-                    <Link className="icon-holder"> 
-                    <GitHubIcon icon = {GitHubIcon} className="icon GH"/>
-                    </Link>
+                <a href="https://www.github.com/Srashik" target="_blank">
+                    <GitHubIcon icon={GitHubIcon} size="2x"/>      
+                </a> 
                 </div>
 
                 </header>

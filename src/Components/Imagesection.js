@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import about from '../Img/about.png';
 
 function ImageSection() {
@@ -32,7 +33,8 @@ function ImageSection() {
                         
                     </div>
                 </div>
-                <button className="btn">Download Cv</button>
+                <a href="../public/ShehrebanuRashikResume.pdf" download><button className="btn">Download Resume</button></a>
+                
             </div>
         </div>
     )
